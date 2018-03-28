@@ -13,7 +13,7 @@ stops.push("Edinburgh Waverley")
 p stops
 # 2. Add `"Glasgow Queen St"` to the start of the array
 stops.unshift("Glasgow Queen St")
-p stops
+
 # 3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
 stops.insert(4, "Polmont")
 p stops
@@ -26,7 +26,7 @@ p stops
 # 6. Delete `"Cumbernauld"` from the array by index
 stops.delete_at(2)
 p stops
-#____COMMMENT_____ How to search for Cumbernauld first and return an index value then delete
+#____COMMENT_____ How to search for Cumbernauld first and return an index value then delete
 # 7. How many stops there are in the array?
 p stops.count
 # 8. How many ways can we return `"Falkirk High"` from the array?
@@ -35,6 +35,13 @@ p stops[2]
 p stops.reverse
 # 10. Print out all the stops using a for loop
 
+for station_names in stops
+  p station_names
+
+end
+#____COMMENT_____ Bug_______ duplication of "Glasgow Queen St".
+#tried unsuccessgfully to remove duplication via .uniq
+#For loop runs in isolation, when additional formulas are greyed out.
 ## Exercise B
 
 ### Given the following data structure:
