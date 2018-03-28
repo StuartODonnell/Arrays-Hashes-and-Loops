@@ -29,8 +29,8 @@ p stops
 #____COMMMENT_____ How to search for Cumbernauld first and return an index value then delete
 # 7. How many stops there are in the array?
 p stops.count
-
 # 8. How many ways can we return `"Falkirk High"` from the array?
+p stops[2]
 
 # 9. Reverse the positions of the stops in the array
 
