@@ -21,7 +21,8 @@ p stops
 stops.index("Linlithgow")
 p stops.index("Linlithgow")
 # 5. Remove `"Livingston"` from the array using its name
-
+stops.delete("Livingston")
+p stops
 # 6. Delete `"Cumbernauld"` from the array by index
 
 # 7. How many stops there are in the array?
