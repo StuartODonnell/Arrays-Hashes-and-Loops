@@ -115,16 +115,16 @@ p users["Erik"][:home_town]
 p users["Erik"][:lottery_numbers]
 
 # 4. Get the type of Avril's pet Monty
-p users ["Avril"][:pets]
 
 # 5. Get the smallest of Erik's lottery numbers
 
 # 6. Return an array of Avril's lottery numbers that are even
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
-
+users["Erik"][:lottery_numbers] << 7
+p users ["Erik"][:lottery_numbers]
 # 8. Change Erik's hometown to Edinburgh
-
+p users["Erik"][:home_town] = "Edinburgh"
 # 9. Add a pet dog to Erik called "Fluffy"
 
 # 10. Add another person to the users hash
@@ -155,6 +155,9 @@ united_kingdom = [
 ### Complete these tasks:
 
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
+united_kingdom
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
+
 # 3. Use a loop to print the names of all the countries in the UK.
+
 # 4. Use a loop to find the total population of the UK.
