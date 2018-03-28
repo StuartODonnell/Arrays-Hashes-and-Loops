@@ -24,8 +24,11 @@ p stops.index("Linlithgow")
 stops.delete("Livingston")
 p stops
 # 6. Delete `"Cumbernauld"` from the array by index
-
+stops.delete_at(2)
+p stops
+#____COMMMENT_____ How to search for Cumbernauld first and return an index value then delete
 # 7. How many stops there are in the array?
+p stops.count
 
 # 8. How many ways can we return `"Falkirk High"` from the array?
 
