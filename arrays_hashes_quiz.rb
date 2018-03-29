@@ -131,7 +131,10 @@ p users ["Erik"][:lottery_numbers]
 p users["Erik"][:home_town] = "Edinburgh"
 
 # 9. Add a pet dog to Erik called "Fluffy"
-
+p users["Erik"][:pets].push({
+  :name => "Fluffy",
+  :species => "dog"
+})
 # 10. Add another person to the users hash
 
 
@@ -167,7 +170,6 @@ p united_kingdom.push({
   population: 100000,
   capital: "Belfast"
 })
-
 # 3. Use a loop to print the names of all the countries in the UK.
 
 # 4. Use a loop to find the total population of the UK.
