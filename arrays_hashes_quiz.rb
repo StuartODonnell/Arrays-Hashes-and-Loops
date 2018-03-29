@@ -136,7 +136,17 @@ p users["Erik"][:pets].push({
   :species => "dog"
 })
 # 10. Add another person to the users hash
-
+p users.merge!(
+  {"Dave" => {
+  :twitter => "DiscoDave",
+  :lottery_numbers => [1, 4, 3, 8, 19, 25],
+  :home_town => "Caracas",
+  :pets => [
+    {
+      :name => "Chairman Meow",
+      :species => "cat"}
+    ]
+  }})
 
 ## Exercise C
 
